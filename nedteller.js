@@ -27,7 +27,8 @@ function countDown(id){
 }
 
 start.addEventListener('click', function(event) {
-  const id = setInterval(() => countDown(id), 300);
+  let time = 1000; // ms
+  const id = setInterval(() => countDown(id), time);
 
 });
 
