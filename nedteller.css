@@ -1,0 +1,95 @@
+body {
+    background-color: #262626;
+    color: #ffffff;
+}
+
+main {
+  width: 500px;
+  text-align: center;
+}
+
+output {
+  text-align: center;
+  font-size: 60px;
+}
+
+.buttons {
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.buttons button {
+  border-color: grey;
+  border-spacing: 30px;
+  background-color: #262626;
+  color: white;
+  font-size: 25px;
+  width: 120px;
+  height: 60px;
+  margin:0.3em;
+
+}
+
+.buttons button:hover{
+  background-color: #fd5158;
+  cursor: -webkit-grabbing;
+  cursor: grabbing;
+}
+
+.startbutton {
+  background-color: #fd5158;
+  background-size: 50px;
+  border-color: #fd5158;
+  color: white;
+  font-size: 25px;
+  width: 220px;
+  height: 70px;
+  margin:0.8em;
+
+}
+
+.subbutton {
+  background-color: white;
+  background-size: 50px;
+  border-color: #fd5158;
+  color: black;
+  font-size: 25px;
+  width: 50px;
+  height: 70px;
+  margin:0.8em;
+}
+.addbutton {
+  background-color: white;
+  background-size: 50px;
+  border-color: #fd5158;
+  color: black;
+  font-size: 25px;
+  width: 50px;
+  height: 70px;
+  margin:0.8em;
+}
+
+
+.resetbutton{
+  background-color: rgb(255, 176, 176);
+  background-size: 10px;
+  border-color: rgb(153, 129, 129);
+  color: white;
+  font-size: 25px;
+  width: 220px;
+  height: 70px;
+  margin:0.4em;
+
+}
+
+.startbutton:hover{
+  background-color: #fd5111;
+  cursor: -webkit-grabbing;
+  cursor: grabbing;
+}
+
+
+.buttons button:focus {
+  outline-style: groove;
+  outline-color: #fd5158;
+}
